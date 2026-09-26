@@ -1,0 +1,23 @@
+.case-metrics small{display:block;color:#777;margin-top:7px}.case-copy{max-width:760px;margin-top:60px}.case-copy>p{color:#aaa;line-height:1.8}.case-copy h4{font:10px "DM Mono";color:#8db4ff;margin:45px 0 15px}.media-link{display:grid;grid-template-columns:1fr auto 25px;gap:20px;padding:17px 0;border-bottom:1px solid #35373b;font:10px "DM Mono"}.media-link:hover{color:#8db4ff}.media-link b{font-weight:400;color:#aaa}.media-link i{font-style:normal}.asset-note{border:1px solid #35373b;padding:18px;color:#777;font:10px "DM Mono";line-height:1.6}.doc{display:inline-block;border:1px solid #8db4ff;color:#8db4ff;padding:12px 15px;font:10px "DM Mono";margin-top:20px}.profile-shot,.bgsu-shot{max-width:100%;display:block;margin-top:35px;border:1px solid #35373b}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:30px}.gallery img{width:100%;display:block;border:1px solid #35373b}.other-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:60px}.other-grid div{border:1px solid #35373b;padding:25px}.other-grid b{display:block;font:700 1.4rem "Bricolage Grotesque";margin-bottom:8px}.other-grid span{font:9px "DM Mono";color:#777}footer{background:#101113;border-top:1px solid #35373b;padding:22px 7vw;display:flex;justify-content:space-between;color:#777;font:9px "DM Mono"}@media(max-width:800px){header{padding:0 5vw}nav{gap:12px;font-size:8px}.header-cta{display:none}.hero{grid-template-columns:1fr;padding:10vw 6vw 70px}.portrait{width:82%;justify-self:center}.hero h1{font-size:clamp(4.5rem,19vw,7rem)}.hero-foot{display:none}.track{padding:25px 6vw}.track-grid{grid-template-columns:repeat(2,1fr)}.track-grid>div{border-bottom:1px solid #bbb}.work,.about,.experience,.contact{padding:15vw 6vw}.work-head{display:block;margin:55px 0}.work-head h2{font-size:clamp(4rem,17vw,7rem)}.hero-project,.hero-project.clip{display:flex;flex-direction:column}.project-text{padding:35px;min-height:430px}.visual{min-height:440px}.phone{width:170px;height:360px}.screen{height:260px}.p1{left:18%}.p2{left:43%}.browser{width:90%}.browser-body b{font-size:45px}.more a{grid-template-columns:30px 1fr 25px}.more a small{grid-column:2}.about-grid{grid-template-columns:1fr;gap:55px;margin-top:55px}.jobs>div{grid-template-columns:1fr}.jobs b{text-align:left}.case-metrics{grid-template-columns:repeat(2,1fr)}.overlay-inner{padding:22vw 7vw}.other-grid,.gallery{grid-template-columns:1fr}.contact h2{font-size:clamp(4.5rem,18vw,7rem)}.contact-foot,footer{flex-direction:column;gap:10px}}
+
+.hero-visual{position:relative;display:flex;justify-content:flex-end;align-items:center;min-height:620px}
+.floating-proof{position:absolute;left:-55px;bottom:35px;background:#f4f1ea;color:#101113;width:190px;padding:20px;border:1px solid #b8b5ae;box-shadow:14px 14px 0 #8db4ff}
+.floating-proof span,.floating-proof small{display:block;font:9px "DM Mono";letter-spacing:.08em}
+.floating-proof b{display:inline-block;font:700 34px/1 "Bricolage Grotesque";margin:16px 12px 2px 0}
+.proof-note{display:grid;grid-template-columns:170px 1fr;gap:30px;border-top:1px solid #aaa79e;margin-top:25px;padding-top:20px}
+.proof-note span{font:10px "DM Mono";color:#5e5c57}
+.proof-note strong{font:600 18px/1.5 "Manrope";max-width:900px}
+.academic-preview{background:#101113;color:#f4f1ea;padding:7vw}
+.academic-preview .section-line{color:#999;border-color:#3a3b3f}
+.academic-intro{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:end;margin:70px 0 45px}
+.academic-intro h2{font:700 clamp(4rem,8vw,8rem)/.82 "Bricolage Grotesque";letter-spacing:-.09em;margin:0}
+.academic-intro h2 em{font-style:italic;color:#8db4ff}
+.academic-intro p{color:#aaa;line-height:1.7;max-width:500px}
+.academic-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #3a3b3f}
+.academic-strip a{padding:24px 18px;border-right:1px solid #3a3b3f;min-height:150px;transition:.2s}
+.academic-strip a:hover{background:#8db4ff;color:#101113}
+.academic-strip span,.academic-strip small{display:block;font:9px "DM Mono";letter-spacing:.08em}
+.academic-strip b{display:block;font:700 25px "Bricolage Grotesque";margin:35px 0 8px;letter-spacing:-.04em}
+@media(max-width:800px){
+.hero-visual{min-height:auto;display:block}.floating-proof{position:relative;left:auto;bottom:auto;margin:-45px 15px 30px auto}.proof-note{grid-template-columns:1fr}.academic-intro{grid-template-columns:1fr}.academic-strip{grid-template-columns:1fr 1fr}
+}
