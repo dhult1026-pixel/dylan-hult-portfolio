@@ -21,3 +21,20 @@
 @media(max-width:800px){
 .hero-visual{min-height:auto;display:block}.floating-proof{position:relative;left:auto;bottom:auto;margin:-45px 15px 30px auto}.proof-note{grid-template-columns:1fr}.academic-intro{grid-template-columns:1fr}.academic-strip{grid-template-columns:1fr 1fr}
 }
+
+.certifications{background:#e8e4da;color:#101113;padding:8vw 7vw}
+.certifications .section-line{color:#66635e;border-color:#aaa79e}
+.cert-head{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:end;margin:70px 0 45px}
+.cert-head h2{font:700 clamp(4rem,8vw,8rem)/.82 "Bricolage Grotesque";letter-spacing:-.09em;margin:0}
+.cert-head h2 em{font-style:italic;font-weight:500;color:#8b8a84}
+.cert-head p{color:#66635e;line-height:1.7;max-width:500px}
+.cert-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.cert-card{border:1px solid #aaa79e;padding:28px;min-height:310px;display:flex;flex-direction:column;background:#f4f1ea}
+.cert-issuer{font:10px "DM Mono";letter-spacing:.08em;color:#5e5c57}
+.cert-card h3{font:700 2rem/1 "Bricolage Grotesque";letter-spacing:-.05em;margin:28px 0 20px}
+.cert-card p{color:#66635e;line-height:1.6;margin:0 0 16px}
+.cert-card small{font:9px/1.5 "DM Mono";color:#777;word-break:break-word}
+.cert-card a,.cert-status{margin-top:auto;padding-top:28px;font:10px "DM Mono";letter-spacing:.05em;text-transform:uppercase}
+.cert-card a{color:#101113;border-bottom:1px solid #101113;width:max-content}
+.cert-status{color:#777}
+@media(max-width:800px){.certifications{padding:15vw 6vw}.cert-head{grid-template-columns:1fr;margin:55px 0 35px}.cert-grid{grid-template-columns:1fr}.cert-card{min-height:280px}}
